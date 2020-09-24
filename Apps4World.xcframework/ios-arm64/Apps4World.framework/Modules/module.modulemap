@@ -1,0 +1,11 @@
+framework module Apps4World {
+  umbrella header "Apps4World.h"
+
+  export *
+  module * { export * }
+}
+
+module Apps4World.Swift {
+    header "Apps4World-Swift.h"
+    requires objc
+}
